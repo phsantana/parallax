@@ -4,7 +4,7 @@ function parallax(){
 
 	[].forEach.call(document.querySelectorAll(".parallax"),parallax => {
 
-		var roll = document.documentElement.scrollTop/5;
+		var roll = -(parallax.getBoundingClientRect().top/5);
 
 		var bg = "calc(50% + " + roll + "px)";
 
