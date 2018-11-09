@@ -44,9 +44,9 @@ html,body{
 }
 
 .bg{
-	background-image: url('city.jpg');
+	background-image: url('../img/city.jpg');
 }
 
 .bg2{
-	background-image: url('afternoon-anime.jpg');
+	background-image: url('../img/afternoon-anime.jpg');
 }
